@@ -1,0 +1,129 @@
+/* Corpo da Página*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 233, 228);
+}
+
+/* Cabeçalho */
+header{
+    background-color: rgb(30, 19, 65);
+    color:aliceblue;
+    padding: 10px 0;
+}
+/* Parte de Navegação */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* A listagem */
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main {
+    padding:  20px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(30, 19, 65);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin-top: auto; /* Garante que o rodapé vá para a parte inferior */
+    height: 8%;
+}
+
+form{
+    display: inline-block;
+    text-align: left;
+
+}
+form label{
+    display: block;
+    margin-top: 10px;
+}
+
+form textarea{
+    width: 100%;
+    max-width: 500px;
+}
+
+section{
+    margin: 20px 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 2.0;
+
+}
+
+.sobre-mim{
+    background-color: rgb(209, 202, 229);
+    padding: 20px;
+    margin: 150px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 2.0;
+}
+
+#profile{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#table_projetos{
+    width: 100%;  /* Largura máxima*/
+    text-align: center; /* Centralizar o texto*/
+}
+#sobre {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 75vh; /* 100% da altura da tela */
+    
+}
+
+/* Garante que o conteúdo principal ocupe o espaço disponível */
+body, html {
+    height: 100%; /* Garantir que o body e html ocupem toda a altura da janela */
+    margin: 0; /* Remove margens padrão */
+}
+
+main {
+    min-height: calc(100vh - 60px); /* Ajuste a altura para garantir que o rodapé seja empurrado para o final */
+    padding-bottom: 60px; /* Garante um espaço entre o conteúdo e o rodapé */
+}
+#home{
+    height: 75vh;
+}

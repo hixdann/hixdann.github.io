@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header> <!-- Criando um cabeçalho-->
+        <nav> <!-- Uma navegação-->
+            <ul> <!-- Lista de coisas-->
+                <li><a href="index.html">Home</a></li> <!-- Aqui está interligado com cada página-->
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!--Para separar as coisas-->
+        <section id="contato" class="container">
+            <div class="card"style= "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);">
+                <div class="card-body">
+                <h1>Contato</h1> <!-- O cabeçalho aqui-->
+                <p>Sinta-se à vontade para entrar em contato:</p> <!-- Uma mensagem dizendo o que há no pra fazer-->
+                <form action="mailto:danilo.f.almeida@outlook.com" method="post" target="_blank"> <!-- Aqui fizemos uma ação de enviar por e=mail com o metodo criar im email e quando clica em criar abre um pagina nova pra enviar para o e-mail-->
+                    <div class="mb-3"></div>
+                    <label for="mensagem" class="form-label" style="max-width: 500px;" >Se você tem alguma dúvida, sugestão ou gostaria de conversar mais 
+                        sobre algum projeto, fique à vontade para me enviar um e-mail:</label>
+                    <textarea id="mensagem" name="text" rows="4" cols="50"></textarea> <!-- Definindo o tamanho da area que terá para colocar o texto-->
+                    <br> <!-- Pular linha-->
+                    <button style="background-color: rgb(30, 19, 65); --bs-btn-border-color: rgb(87, 53, 200);" type="submit" class="btn btn-primary">Enviar via e-mail</button> <!-- Criado um botão com a mensagem nele para realizar o envio-->
+                </form>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Danilo Almeida | <a href="https://www.linkedin.com/in/danilo-ferreira-de-almeida/" target="_blank" style="color: white; text-decoration: none;">💼 LinkedIn</a> | <a href="https://github.com/hixdann" target="_blank" style="color: white; text-decoration: none;">🖥️ GitHub</a></p></p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
