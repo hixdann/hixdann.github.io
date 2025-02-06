@@ -31,6 +31,15 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li a:visited {
+    color: aliceblue; /* Mantém a mesma cor após ser visitado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: aliceblue; /* Altere para a cor desejada ao passar o mouse */
+}
+
 main {
     padding:  20px;
     text-align: center;
@@ -46,6 +55,19 @@ footer{
     width: 100vw;
     margin-top: auto; /* Garante que o rodapé vá para a parte inferior */
     height: 8%;
+}
+footer a {
+    color: aliceblue; /* Mantém a mesma cor após ser visitado */
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: aliceblue; /* Mantém a mesma cor após ser visitado */
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(42, 172, 237); /* Altere para a cor desejada ao passar o mouse */
 }
 
 form{
@@ -84,6 +106,17 @@ section{
     line-height: 2.0;
 
 }
+
+a.contato-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.contato-link:hover {
+    color:rgb(241, 83, 43);
+    text-decoration: underline;
+  }
+
 
 .sobre-mim{
     background-color: rgb(209, 202, 229);
